@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SeminarioAndroid</string>
+    <string name="next">Next</string>
+    <string name="reload_button">Reload</string>
+    <string name="search_icon_desc">Search icon</string>
+    <string name="search_hint">Search…</string>
+    <string name="language">en-EN</string>
+    <string name="movie_image_desc">Movie image</string>
+    <string name="rating">Rating: </string>
+    <string name="genres">Genres: </string>
+    <string name="overview">Overview: </string>
+
+    <string name="no_title">Title not available</string>
+    <string name="no_movies_found">"No movies found"</string>
+
+    <string name="network_error">Network error. Please check your connection.</string>
+    <string name="database_error">Database error. Please try again later.</string>
+    <string name="api_error">API error. Please try again.</string>
+    <string name="timeout_error">The request timed out. Please try again later.</string>
+    <string name="unknown_error">Unknown error occurred.</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Light theme-->
+    <color name="backgroundLight">#e3ecff</color>
+    <color name="primaryColorLight">#6f9fff</color>
+    <color name="secondaryColorLight">#dec9ff</color>
+    <color name="backgroundSearchBarLight">#6f9fff</color>
+    <color name="textPrimaryLight">#FF000000</color>
+    <color name="textSecondaryLight">#FF666666</color>
+    <color name="textMovieTitleLight">#FF000000</color>
+
+    <!--Dark theme-->
+    <color name="backgroundDark">#FAFAFA</color>
+    <color name="textPrimaryDark">#FF000000</color>
+    <color name="textSecondaryDark">#FF666666</color>
+    <color name="textHintDark">#FF999999</color>
+    <color name="textDisabledDark">#FFCCCCCC</color>
+    <color name="textMovieTitleDark">#FF000000</color>
+</resources>

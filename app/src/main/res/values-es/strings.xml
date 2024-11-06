@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SeminarioAndroid</string>
+    <string name="next">Siguiente</string>
+    <string name="reload_button">Recargar</string>
+    <string name="search_icon_desc">Icono de búsqueda</string>
+    <string name="search_hint">Buscar…</string>
+    <string name="language">es-ES</string>
+    <string name="movie_image_desc">Imagen de la película</string>
+    <string name="rating">Calificación: </string>
+    <string name="genres">Generos: </string>
+    <string name="overview">Resumen: </string>
+
+    <string name="no_title">Titulo no disponible</string>
+    <string name="no_movies_found">"No se encontraron películas"</string>
+
+    <string name="network_error">Error de red. Por favor, revisa tu conexión.</string>
+    <string name="database_error">Error de base de datos. Intenta nuevamente más tarde.</string>
+    <string name="api_error">Error de API. Intenta nuevamente.</string>
+    <string name="timeout_error">La solicitud ha expirado. Intenta nuevamente más tarde.</string>
+    <string name="unknown_error">Ocurrió un error desconocido.</string>
+</resources>
