@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="@color/primaryColorLight"
+        android:background="@color/primaryColor"
         android:padding="8dp"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -21,7 +21,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:contentDescription="@string/search_icon_desc"
-            android:src="@drawable/baseline_local_movies_24"
+            android:src="@mipmap/ic_launcher"
             android:layout_gravity="center_vertical"/>
 
 
@@ -90,7 +90,7 @@
     android:orientation="vertical"
     android:padding="8dp"
     app:layout_constraintTop_toBottomOf="@id/menu_bar"
-    android:background="@color/backgroundLight"
+    android:background="@color/background"
     app:layout_constraintBottom_toBottomOf="parent">
 
     <RelativeLayout
@@ -130,9 +130,10 @@
         app:layout_constraintTop_toBottomOf="@id/movie_image_container"
         android:layout_marginStart="15.dp"
         android:layout_marginTop="15.dp"
+        android:paddingBottom="10.dp"
         android:text="@string/no_title"
         android:textStyle="bold"
-        android:textColor="@color/textMovieTitleLight"
+        android:textColor="@color/textMovieTitle"
         android:textSize="24.sp"/>
 
     <TextView
@@ -140,20 +141,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15.dp"
+        android:paddingBottom="10.dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/movie_title"
-        android:text="@string/rating"
-        android:textColor="@color/textPrimaryLight"/>
+        android:text="@string/vote_average"
+        android:textColor="@color/textPrimary"/>
 
     <TextView
         android:id="@+id/genres_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15.dp"
+        android:paddingBottom="10.dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/rating_text"
         android:text="@string/genres"
-        android:textColor="@color/textPrimaryLight"/>
+        android:textColor="@color/textPrimary"/>
 
     <TextView
         android:id="@+id/overview_text"
@@ -163,7 +166,7 @@
         app:layout_constraintTop_toBottomOf="@id/genres_text"
         android:layout_marginStart="15.dp"
         android:text="@string/overview"
-        android:textColor="@color/textPrimaryLight"/>
+        android:textColor="@color/textPrimary"/>
 
 </LinearLayout>
 
@@ -186,7 +189,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:backgroundTint="@color/primaryColorLight"
+        android:backgroundTint="@color/primaryColor"
         android:text="@string/reload_button"
         android:visibility="invisible"/>
 

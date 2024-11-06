@@ -101,8 +101,20 @@ class SpecifiedMovieActivity: AppCompatActivity() {
 
         val movie = viewModel.specifiedMovie.value
         binding.movieTitle.text = movie.title
-        binding.ratingText.text = movie.voteAverage
-        binding.genresText.text = movie.genres
-        binding.overviewText.text = movie.overview
+        binding.ratingText.text = buildString {
+            append(binding.root.context.getString(R.string.vote_average))
+            append(" ")
+            append(movie.voteAverage)
+        }
+        binding.genresText.text = buildString {
+            append(binding.root.context.getString(R.string.genres))
+            append(" ")
+            append(movie.genres)
+        }
+        binding.overviewText.text = buildString {
+            append(binding.root.context.getString(R.string.overview))
+            append(" ")
+            append(movie.overview)
+        }
     }
 }

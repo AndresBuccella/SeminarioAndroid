@@ -6,7 +6,7 @@
     <string name="search_hint">Search…</string>
     <string name="language">en-EN</string>
     <string name="movie_image_desc">Movie image</string>
-    <string name="rating">Rating: </string>
+    <string name="vote_average">Rating: </string>
     <string name="genres">Genres: </string>
     <string name="overview">Overview: </string>
 

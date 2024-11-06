@@ -10,8 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="horizontal"
-        android:background="@color/secondaryColorLight"
+        android:background="@color/secondaryColor"
         android:paddingStart="8.dp"
+        android:paddingEnd="8.dp"
         android:paddingBottom="15.dp"
         android:paddingTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,7 +49,7 @@
             android:layout_marginStart="8.dp"
             android:text="@string/no_title"
             android:textStyle="bold"
-            android:textColor="@color/textMovieTitleLight"
+            android:textColor="@color/textMovieTitle"
             android:textSize="24.sp"/>
     </LinearLayout>
 
